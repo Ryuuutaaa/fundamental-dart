@@ -11,4 +11,8 @@ main() {
   print(
     'z = $z',
   );
+
+  print(
+    "combinatin ${z + 10}",
+  );
 }
