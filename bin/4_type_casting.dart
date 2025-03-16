@@ -4,7 +4,14 @@ main() {
 
   x.toDouble();
 
+  var type =
+      x.runtimeType;
+
   print(
     "x = $x",
+  );
+
+  print(
+    type,
   );
 }
