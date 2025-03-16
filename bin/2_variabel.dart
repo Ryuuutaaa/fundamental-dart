@@ -27,6 +27,8 @@ main() {
       10.2;
   String name =
       "Ryuta";
+  bool isTrue =
+      true;
 
   print(
     "integer $age",
@@ -38,5 +40,9 @@ main() {
 
   print(
     "string $name",
+  );
+
+  print(
+    "boolean $isTrue",
   );
 }
