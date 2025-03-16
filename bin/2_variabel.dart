@@ -15,4 +15,28 @@ main() {
   print(
     "combinatin ${z + 10}",
   );
+
+  print(
+    "---------------------",
+  );
+
+  // type data
+  int age =
+      19;
+  double price =
+      10.2;
+  String name =
+      "Ryuta";
+
+  print(
+    "integer $age",
+  );
+
+  print(
+    "double $price",
+  );
+
+  print(
+    "string $name",
+  );
 }
