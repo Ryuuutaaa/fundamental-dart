@@ -26,4 +26,19 @@ main() {
     detection +
         " value",
   );
+
+  print(
+    "----------------",
+  );
+
+  var num1 =
+      "17";
+
+  var num2 = num.parse(
+    num1,
+  );
+
+  print(
+    num2,
+  );
 }
