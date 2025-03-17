@@ -7,9 +7,14 @@ main() {
     print(
       "positive",
     );
-  } else {
+  } else if (0 <
+      x) {
     print(
       "negative",
+    );
+  } else {
+    print(
+      "zero",
     );
   }
 }
