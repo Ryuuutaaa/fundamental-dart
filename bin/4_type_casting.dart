@@ -2,16 +2,28 @@ void
 main() {
   var x = 10;
 
-  x.toDouble();
-
-  var type =
-      x.runtimeType;
+  var y = x.toDouble();
 
   print(
-    "x = $x",
+    "y $y",
   );
 
   print(
-    type,
+    "type y $y",
+  );
+
+  print(
+    "----------------",
+  );
+
+  var isBoolean =
+      false;
+  var detection =
+      isBoolean.toString();
+  ;
+
+  print(
+    detection +
+        " value",
   );
 }
