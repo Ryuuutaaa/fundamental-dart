@@ -1,39 +1,23 @@
-void
-main() {
+void main() {
   var x = 10;
   var y = 10;
-  var op =
-      "*";
+  var op = "*";
 
   switch (op) {
     case "+":
-      print(
-        x +
-            y,
-      );
+      print(x + y);
       break;
     case "-":
-      print(
-        x -
-            y,
-      );
+      print(x - y);
       break;
     case "*":
-      print(
-        x *
-            y,
-      );
+      print(x * y);
       break;
     case "/":
-      print(
-        x /
-            y,
-      );
+      print(x / y);
       break;
     default:
-      print(
-        "Invalid operator",
-      );
+      print("Invalid operator");
       break;
   }
 }

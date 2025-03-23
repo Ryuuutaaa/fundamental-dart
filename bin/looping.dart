@@ -1,11 +1,7 @@
-void
-main() {
+void main() {
   var i = 0;
   do {
-    print(
-      "$i-Hi",
-    );
+    print("$i-Hi");
     i++;
-  } while (i <
-      5);
+  } while (i < 5);
 }
